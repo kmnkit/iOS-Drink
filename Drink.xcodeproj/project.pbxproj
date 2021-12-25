@@ -13,6 +13,11 @@
 		9051C40827775AE600F54C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9051C40627775AE600F54C39 /* Main.storyboard */; };
 		9051C40A27775AE800F54C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9051C40927775AE800F54C39 /* Assets.xcassets */; };
 		9051C40D27775AE800F54C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9051C40B27775AE800F54C39 /* LaunchScreen.storyboard */; };
+		9051C41527775B0900F54C39 /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051C41427775B0900F54C39 /* AlertListViewController.swift */; };
+		9051C41827775D5F00F54C39 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051C41627775D5F00F54C39 /* AlertListCell.swift */; };
+		9051C41927775D5F00F54C39 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9051C41727775D5F00F54C39 /* AlertListCell.xib */; };
+		9051C41B27775FBC00F54C39 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051C41A27775FBC00F54C39 /* Alert.swift */; };
+		9051C41D277762B000F54C39 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051C41C277762B000F54C39 /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		9051C40927775AE800F54C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9051C40C27775AE800F54C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9051C40E27775AE800F54C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9051C41427775B0900F54C39 /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		9051C41627775D5F00F54C39 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		9051C41727775D5F00F54C39 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		9051C41A27775FBC00F54C39 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		9051C41C277762B000F54C39 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				9051C40227775AE600F54C39 /* SceneDelegate.swift */,
 				9051C40427775AE600F54C39 /* ViewController.swift */,
 				9051C40627775AE600F54C39 /* Main.storyboard */,
+				9051C41C277762B000F54C39 /* AddAlertViewController.swift */,
+				9051C41427775B0900F54C39 /* AlertListViewController.swift */,
+				9051C41627775D5F00F54C39 /* AlertListCell.swift */,
+				9051C41A27775FBC00F54C39 /* Alert.swift */,
+				9051C41727775D5F00F54C39 /* AlertListCell.xib */,
 				9051C40927775AE800F54C39 /* Assets.xcassets */,
 				9051C40B27775AE800F54C39 /* LaunchScreen.storyboard */,
 				9051C40E27775AE800F54C39 /* Info.plist */,
@@ -127,6 +142,7 @@
 			files = (
 				9051C40D27775AE800F54C39 /* LaunchScreen.storyboard in Resources */,
 				9051C40A27775AE800F54C39 /* Assets.xcassets in Resources */,
+				9051C41927775D5F00F54C39 /* AlertListCell.xib in Resources */,
 				9051C40827775AE600F54C39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9051C41B27775FBC00F54C39 /* Alert.swift in Sources */,
 				9051C40527775AE600F54C39 /* ViewController.swift in Sources */,
+				9051C41D277762B000F54C39 /* AddAlertViewController.swift in Sources */,
 				9051C40127775AE600F54C39 /* AppDelegate.swift in Sources */,
 				9051C40327775AE600F54C39 /* SceneDelegate.swift in Sources */,
+				9051C41527775B0900F54C39 /* AlertListViewController.swift in Sources */,
+				9051C41827775D5F00F54C39 /* AlertListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
